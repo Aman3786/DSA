@@ -31,7 +31,7 @@ class Solution:
                 
 #         return dp[m-1][n-1]
     
-    Optimal Combinatorics (Time & Space Optimize)
+    #Optimal Combinatorics (Time & Space Optimize)
     def solve(self,m,n):
         N = n+m-2
         r = min(m-1,n-1)
